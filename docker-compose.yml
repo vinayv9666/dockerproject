@@ -1,0 +1,10 @@
+version: '3'
+services:
+  myapp1:
+    image: vinayvadloori/myapp1:latest
+    ports:
+      - "90:80"
+  myapp2:
+    image: vinayvadloori/myapp2:latest
+    ports:
+      - "91:80"
